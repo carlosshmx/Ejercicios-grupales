@@ -12,7 +12,7 @@ document.addEventListener("keyup", (evt)=>{
    
     console.log(screenWidth);
     if(evt.key == "ArrowDown"){
-        topNew = Math.min(topNew+10, screenHeight-100);
+        topNew = Math.min(topNew+20, screenHeight-100);
         bolita.style.top = topNew + "px";
     }else if(evt.key == "ArrowUp" && topNew > 0){
         topNew = topNew-20;
