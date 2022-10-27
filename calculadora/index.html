@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+        <div class="fondo">
+            <div class="operacion">
+                &nbsp;
+            </div>
+            <div>
+                <small class="previa">&nbsp;</small>
+            </div>
+            <div class="display">
+              &nbsp;
+            </div>
+            
+            <div class="teclado">
+                <button class="operaciones" onclick=setearOperador(this)>+</button>
+                <button class="operaciones" onclick=setearOperador(this)>-</button>
+                <button class="operaciones" onclick=setearOperador(this)>x</button>
+                <button class="operaciones" onclick=setearOperador(this)>/</button>
+                <button onclick=setearNumero(this)>7</button>
+                <button onclick=setearNumero(this)>8</button>
+                <button onclick=setearNumero(this)>9</button>
+                <button onclick=setearNumero(this)>4</button>
+                <button onclick=setearNumero(this)>5</button>
+                <button onclick=setearNumero(this)>6</button>
+                <button onclick=setearNumero(this)>1</button>
+                <button onclick=setearNumero(this)>2</button>
+                <button onclick=setearNumero(this)>3</button>
+                <button onclick=setearNumero(this)>0</button>
+                <button onclick=setearNumero(this)>.</button>
+                <button onclick=borrar()>C</button>
+                <button class="igual" onclick=igual()>=</button>
+            </div>
+        </div>
+  
+   
+</body>
+<script src="./script.js"></script>
+</html>
