@@ -1,7 +1,6 @@
 let operacion = document.querySelector(".operacion");
 let display = document.querySelector(".display");
 let previa = document.querySelector(".previa");
-
 let operador;
 let numero;
 let resultado;
@@ -17,9 +16,6 @@ function setearNumero(num){
     if(numero && operador){
         previa.innerHTML = `${numero}${operador}${parseFloat(display.textContent)}`
     }
-
-
-
 }
 
 function setearOperador(op){
@@ -30,7 +26,6 @@ function setearOperador(op){
     }
     numero = parseFloat(display.textContent)
     display.innerHTML = "&nbsp";
-    
 }
 
 function igual(){
